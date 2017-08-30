@@ -1,0 +1,165 @@
+<html>
+<head>
+    <title>  
+    Bootsraps Basic
+    </title> 
+        <link rel="stylesheet" type ="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+    
+
+    <body>
+    <div class="container-fluid">
+        
+        <div class="row">
+        
+        <div class="col-md-2 black-header tinggi">
+            <div class="gambar"><img src="images/banana%20chease.png"></div>
+            </div>
+        <div class="col-md-10 black tinggi" >
+            <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Banana Chease</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Product <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Banana Cheps</a></li>
+          <li><a href="#">Banana Cake </a></li>
+          <li><a href="#">Banana Puding</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Branch</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+    </div>
+        <div class="col-md-12 black-content txt_black">
+            <div class="w3-content w3-section" style="max-width:1420px">
+  <img class="mySlides" src="images/banana1.png" style="width:100%">
+  <img class="mySlides" src="images/5_Banana.jpg" style="width:100%">
+  <img class="mySlides" src="images/banana6.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+            
+        </div>
+    
+            <div class="container2">
+            
+            <div class="row2">
+            <div class="col-md-4 black-content2"> <h3>What is Lorem Ipsum?</h3>
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+            </div>  
+            <div class="col-md-4 black-content2"> <h3>What is Lorem Ipsum?</h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+            </div>  
+            <div class="col-md-4 black-content2"> <h3>What is Lorem Ipsum?</h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                
+            </div>  
+            
+            </div>
+            <center>
+                <div class="col-md-4 black-3">
+                   
+                   <img src="images/Banana1.jpg" alt="banana cheps" class="img-circle"><h4 class ="text-banana"> Banana Cheps</h4> </div>
+                 <div class="col-md-4 black-3">
+                     <img src="images/banana2.jpeg" alt="banana cake" class="img-circle"><h4 class ="text-banana"> Banana cake</h4> </div> 
+                   
+                 <div class="col-md-4 black-3"> 
+                     <img src="images/banana3.jpg" alt="banana puding" class="img-circle"><h4 class ="text-banana"> Banana Puding</h4>
+                     </div>
+               
+             </center>   
+       
+        <div class="col-md-4 black-bottom">
+          <center><h3>Our Map Location </h3></center> 
+            <div id="googleMap" style="width:100%;height:200px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+        </div>
+                
+                
+                
+        <div class="col-md-4 black-bottom"> fff
+
+        </div>
+        
+            
+            <div class="col-md-4 black-bottom">
+        <div class="inputdata">
+        <h3>Info Pemesanan</h3>
+        </div>
+            <form class="w3-container">
+                <p>
+            <input class="w3-input" type="text">
+            <label>First Name</label></p>
+
+                <p>
+            <input class="w3-input" type="text">
+            <label>Last Name</label></p>
+
+                <p>
+            <input class="w3-input" type="text">
+            <label>Email</label></p>
+                <button class="submit">submit</button>
+            </form> 
+            <div class="media"> Media Social </div>
+                 <a href="#" class="fa fa-facebook"></a> 
+                 <a href="#" class="fa fa-pinterest"></a>
+                 <a href="#" class="fa fa-youtube"></a>
+            </div>
+        
+         </div>
+        <div class="col-md-12 black-footer">copyright@2017lbananachease</div>
+        
+        </div> 
+        
+        
+    
+    </body>
+
+</html>

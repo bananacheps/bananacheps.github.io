@@ -1,0 +1,123 @@
+.black-header{
+    background-color: black;  
+    height: 20%;
+}
+
+.black{
+    background-color: black;
+}
+
+.black-content{
+    background-color: black;
+      height: 410px;
+  
+    background-position: left;
+    
+}
+
+.black-bottom{
+    background-color: black;
+      height: 300px;
+    color: white;
+    
+}
+
+.black-content2{
+    
+    height: 250px;
+    background-color: black;
+    color:darkgrey;
+    text-align: justify;  
+}
+
+
+.gambar{ background-size:auto;
+    
+}
+
+.black-3{ 
+    background-color: black;
+    height: 350px;
+    background-position: center;
+
+}
+.text-banana{
+    color: white;
+text-align:center;
+}
+
+.img-circle{
+    height: 300px;
+    width: 300px;
+    background-position:center;
+    
+}
+
+
+
+
+.tinggi{
+    height: 11%;
+}
+.txt_black{ 
+    color: beige;
+    
+}
+.inputdata{
+    color: white;
+}
+
+.w3-container{
+    color: white;
+}
+
+.black-footer{
+ background-color: black;
+    text-align: center;
+    color:darkgrey;
+    font-weight:500;
+    height: 10%;
+    padding-top: 20px;
+}
+.submit{
+    color: black;
+}
+
+.mySlides {display:none;
+background-size: cover;}
+
+.fa {
+  padding: 10px;
+  font-size: 100px;
+  width:30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.media{
+    color: white;
+    font-size: 20px;
+}
+
+/*
+slide in over (gambar)
+ */
+
